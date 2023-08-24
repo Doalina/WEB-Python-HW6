@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "web-python-hw6"
+version = "0.1.0"
+description = ""
+authors = ["Alina Dobryshyna <alinochka1330@gmail.com>"]
+readme = "README.md"
+packages = [{include = "web_python_hw6"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Faker = "^15.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
